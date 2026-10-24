@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Backend (Maven / Java)
+backend/target/
+backend/.mvn/
+*.class
+*.log
+
+# Frontend (Node / Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env*.local
+node_modules/
+
+# Python (gis-pipeline)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Du lieu GIS dan xuat - sinh lai duoc, KHONG commit (xem gis-pipeline/README.md)
+# Nguon goc .dwg trong data/raw_cad/ va ket qua so hoa .geojson VAN duoc commit.
+data/**/*.dxf
+data/**/*.gpkg
+data/**/*.qmd
+data/**/*.aux.xml
+*.gpkg-shm
+*.gpkg-wal
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Env / secrets
+.env
+.env*.local
+.claude
+
+# Vercel CLI (project settings + env da pull ve may)
+.vercel

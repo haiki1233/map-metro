@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: indoor-navigation-backend
+  datasource:
+    # Cong 5433 (khong phai 5432 mac dinh) - xem docker-compose.yml, tranh xung dot voi Postgres khac tren may.
+    url: jdbc:postgresql://localhost:5433/indoornav
+    username: postgres
+    password: postgres
+  jpa:
+    open-in-view: false
+    hibernate:
+      # "none": schema.sql/seed_data.sql duoc quan ly tay (xem database/), khong de Hibernate dong/kiem tra DDL.
+      # "validate" de kiem tra entity <-> DB that chat hon nhung cot geometry (PostGIS) doi khi bi Hibernate
+      # Spatial bao false-positive mismatch khi validate — chua kiem chung duoc o moi truong nay (khong co
+      # Java/Maven local de chay thu), nen de "none" cho an toan, tu doi lai "validate" khi da co CI/local test that.
+      ddl-auto: none
+    properties:
+      hibernate:
+        format_sql: true
+        # KHONG khai bao hibernate.dialect thu cong: Spring Boot tu nhan dien PostgreSQLDialect tu driver,
+        # va hibernate-spatial (co trong pom.xml) tu dong dong gop ho tro kieu Geometry vao dialect chuan
+        # o Hibernate 6.x — cac lop dialect rieng cho Postgis (PostgisPG10Dialect...) cua Hibernate 5 da bi
+        # loai bo, khai bao tay se lam app khong khoi dong duoc.
+  jackson:
+    default-property-inclusion: non_null
+
+server:
+  port: 8080
+
+app:
+  cors:
+    # Frontend Vite dev server. Nhieu origin cach nhau boi dau phay. Doi khi deploy that.
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:5173}
+  routing:
+    default-criteria: distance
+    default-max-distance-meters: 15
+
+logging:
+  level:
+    com.metro.indoornav: DEBUG
+    org.hibernate.SQL: DEBUG

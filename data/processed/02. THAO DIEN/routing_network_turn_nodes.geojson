@@ -1,0 +1,3044 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73422210877162,
+            10.800590531222127,
+            0
+          ],
+          [
+            106.73421594564729,
+            10.800605700816824,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 11,
+        "target": 37,
+        "edge_type": "corridor",
+        "edge_id": "1.30.1",
+        "source_edge_id": 30,
+        "source_route_index": 0,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73421594564729,
+            10.800605700816824,
+            0
+          ],
+          [
+            106.73392606805456,
+            10.800547014928629,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 37,
+        "target": 38,
+        "edge_type": "corridor",
+        "edge_id": "1.30.2",
+        "source_edge_id": 30,
+        "source_route_index": 0,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73392606805456,
+            10.800547014928629,
+            0
+          ],
+          [
+            106.73393308405116,
+            10.800518950942244,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 38,
+        "target": 39,
+        "edge_type": "corridor",
+        "edge_id": "1.30.3",
+        "source_edge_id": 30,
+        "source_route_index": 0,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73393308405116,
+            10.800518950942244,
+            0
+          ],
+          [
+            106.73389011726594,
+            10.80051213728936,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 39,
+        "target": 2,
+        "edge_type": "corridor",
+        "edge_id": "1.30.4",
+        "source_edge_id": 30,
+        "source_route_index": 0,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73422210877162,
+            10.800590531222127,
+            0
+          ],
+          [
+            106.73421594564729,
+            10.800605700816824,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 11,
+        "target": 40,
+        "edge_type": "corridor",
+        "edge_id": "2.31.1",
+        "source_edge_id": 31,
+        "source_route_index": 1,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73421594564729,
+            10.800605700816824,
+            0
+          ],
+          [
+            106.73385678239809,
+            10.800529248467559,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 40,
+        "target": 6,
+        "edge_type": "corridor",
+        "edge_id": "2.31.2",
+        "source_edge_id": 31,
+        "source_route_index": 1,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73422210877162,
+            10.800590531222127,
+            0
+          ],
+          [
+            106.73421594564729,
+            10.800605700816824,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 11,
+        "target": 41,
+        "edge_type": "corridor",
+        "edge_id": "3.33.1",
+        "source_edge_id": 33,
+        "source_route_index": 2,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73421594564729,
+            10.800605700816824,
+            0
+          ],
+          [
+            106.73388343125853,
+            10.800535153509369,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 41,
+        "target": 42,
+        "edge_type": "corridor",
+        "edge_id": "3.33.2",
+        "source_edge_id": 33,
+        "source_route_index": 2,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73388343125853,
+            10.800535153509369,
+            0
+          ],
+          [
+            106.7338769999283,
+            10.80055497369975,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 42,
+        "target": 43,
+        "edge_type": "corridor",
+        "edge_id": "3.33.3",
+        "source_edge_id": 33,
+        "source_route_index": 2,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7338769999283,
+            10.80055497369975,
+            0
+          ],
+          [
+            106.73383801936328,
+            10.800545730491473,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 43,
+        "target": 1,
+        "edge_type": "corridor",
+        "edge_id": "3.33.4",
+        "source_edge_id": 33,
+        "source_route_index": 2,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73422210877162,
+            10.800590531222127,
+            0
+          ],
+          [
+            106.73421594564729,
+            10.800605700816824,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 11,
+        "target": 44,
+        "edge_type": "corridor",
+        "edge_id": "4.34.1",
+        "source_edge_id": 34,
+        "source_route_index": 3,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73421594564729,
+            10.800605700816824,
+            0
+          ],
+          [
+            106.73388343125853,
+            10.800535153509369,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 44,
+        "target": 45,
+        "edge_type": "corridor",
+        "edge_id": "4.34.2",
+        "source_edge_id": 34,
+        "source_route_index": 3,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73388343125853,
+            10.800535153509369,
+            0
+          ],
+          [
+            106.73386931887363,
+            10.800579624696118,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 45,
+        "target": 46,
+        "edge_type": "corridor",
+        "edge_id": "4.34.3",
+        "source_edge_id": 34,
+        "source_route_index": 3,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73386931887363,
+            10.800579624696118,
+            0
+          ],
+          [
+            106.73383943915381,
+            10.800573975483028,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 46,
+        "target": 5,
+        "edge_type": "corridor",
+        "edge_id": "4.34.4",
+        "source_edge_id": 34,
+        "source_route_index": 3,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73420334711663,
+            10.8006483574868,
+            0
+          ],
+          [
+            106.73420675999053,
+            10.80063789949081,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 12,
+        "target": 47,
+        "edge_type": "corridor",
+        "edge_id": "5.35.1",
+        "source_edge_id": 35,
+        "source_route_index": 4,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73420675999053,
+            10.80063789949081,
+            0
+          ],
+          [
+            106.73386663740163,
+            10.800564636682028,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 47,
+        "target": 48,
+        "edge_type": "corridor",
+        "edge_id": "5.35.2",
+        "source_edge_id": 35,
+        "source_route_index": 4,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73386663740163,
+            10.800564636682028,
+            0
+          ],
+          [
+            106.73387651826347,
+            10.800532538497599,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 48,
+        "target": 49,
+        "edge_type": "corridor",
+        "edge_id": "5.35.3",
+        "source_edge_id": 35,
+        "source_route_index": 4,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73387651826347,
+            10.800532538497599,
+            0
+          ],
+          [
+            106.73385678239809,
+            10.800529248467559,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 49,
+        "target": 6,
+        "edge_type": "corridor",
+        "edge_id": "5.35.4",
+        "source_edge_id": 35,
+        "source_route_index": 4,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73420334711663,
+            10.8006483574868,
+            0
+          ],
+          [
+            106.73420675999053,
+            10.80063789949081,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 12,
+        "target": 50,
+        "edge_type": "corridor",
+        "edge_id": "6.36.1",
+        "source_edge_id": 36,
+        "source_route_index": 5,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73420675999053,
+            10.80063789949081,
+            0
+          ],
+          [
+            106.73388762486917,
+            10.800569306590567,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 50,
+        "target": 51,
+        "edge_type": "corridor",
+        "edge_id": "6.36.2",
+        "source_edge_id": 36,
+        "source_route_index": 5,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73388762486917,
+            10.800569306590567,
+            0
+          ],
+          [
+            106.733900984496,
+            10.800513704817542,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 51,
+        "target": 52,
+        "edge_type": "corridor",
+        "edge_id": "6.36.3",
+        "source_edge_id": 36,
+        "source_route_index": 5,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.733900984496,
+            10.800513704817542,
+            0
+          ],
+          [
+            106.73389011726594,
+            10.80051213728936,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 52,
+        "target": 2,
+        "edge_type": "corridor",
+        "edge_id": "6.36.4",
+        "source_edge_id": 36,
+        "source_route_index": 5,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73383943915381,
+            10.800573975483028,
+            0
+          ],
+          [
+            106.73384784563012,
+            10.800548112434182,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 5,
+        "target": 53,
+        "edge_type": "corridor",
+        "edge_id": "7.37.1",
+        "source_edge_id": 37,
+        "source_route_index": 6,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73384784563012,
+            10.800548112434182,
+            0
+          ],
+          [
+            106.73383801936328,
+            10.800545730491473,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 53,
+        "target": 1,
+        "edge_type": "corridor",
+        "edge_id": "7.37.2",
+        "source_edge_id": 37,
+        "source_route_index": 6,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73383943915381,
+            10.800573975483028,
+            0
+          ],
+          [
+            106.73385389692722,
+            10.800528283108378,
+            0
+          ],
+          [
+            106.73385678239809,
+            10.800529248467559,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 5,
+        "target": 6,
+        "edge_type": "corridor",
+        "edge_id": "8.38.1",
+        "source_edge_id": 38,
+        "source_route_index": 7,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73383943915381,
+            10.800573975483028,
+            0
+          ],
+          [
+            106.73386113217373,
+            10.800506080402482,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 5,
+        "target": 54,
+        "edge_type": "corridor",
+        "edge_id": "9.39.1",
+        "source_edge_id": 39,
+        "source_route_index": 8,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73386113217373,
+            10.800506080402482,
+            0
+          ],
+          [
+            106.73389011726594,
+            10.80051213728936,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 54,
+        "target": 2,
+        "edge_type": "corridor",
+        "edge_id": "9.39.2",
+        "source_edge_id": 39,
+        "source_route_index": 8,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73405685473027,
+            10.800587559172525,
+            0
+          ],
+          [
+            106.73385041085375,
+            10.800539669486183,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 9,
+        "target": 55,
+        "edge_type": "corridor",
+        "edge_id": "10.40.1",
+        "source_edge_id": 40,
+        "source_route_index": 9,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73385041085375,
+            10.800539669486183,
+            0
+          ],
+          [
+            106.73383943915381,
+            10.800573975483028,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 55,
+        "target": 5,
+        "edge_type": "corridor",
+        "edge_id": "10.40.2",
+        "source_edge_id": 40,
+        "source_route_index": 9,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73405685473027,
+            10.800587559172525,
+            0
+          ],
+          [
+            106.73388138355543,
+            10.800546627016136,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 9,
+        "target": 56,
+        "edge_type": "corridor",
+        "edge_id": "11.41.1",
+        "source_edge_id": 41,
+        "source_route_index": 10,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73388138355543,
+            10.800546627016136,
+            0
+          ],
+          [
+            106.73389011726594,
+            10.80051213728936,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 56,
+        "target": 2,
+        "edge_type": "corridor",
+        "edge_id": "11.41.2",
+        "source_edge_id": 41,
+        "source_route_index": 10,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73405685473027,
+            10.800587559172525,
+            0
+          ],
+          [
+            106.73385394808541,
+            10.800540400319157,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 9,
+        "target": 57,
+        "edge_type": "corridor",
+        "edge_id": "12.42.1",
+        "source_edge_id": 42,
+        "source_route_index": 11,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73385394808541,
+            10.800540400319157,
+            0
+          ],
+          [
+            106.73385678239809,
+            10.800529248467559,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 57,
+        "target": 6,
+        "edge_type": "corridor",
+        "edge_id": "12.42.2",
+        "source_edge_id": 42,
+        "source_route_index": 11,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73405685473027,
+            10.800587559172525,
+            0
+          ],
+          [
+            106.73383949387407,
+            10.800539715422188,
+            0
+          ],
+          [
+            106.73383801936328,
+            10.800545730491473,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 9,
+        "target": 1,
+        "edge_type": "corridor",
+        "edge_id": "13.43.1",
+        "source_edge_id": 43,
+        "source_route_index": 12,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7341484221331,
+            10.800603604832041,
+            0
+          ],
+          [
+            106.73414565441269,
+            10.800614523482752,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 3,
+        "target": 58,
+        "edge_type": "corridor",
+        "edge_id": "14.44.1",
+        "source_edge_id": 44,
+        "source_route_index": 13,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73414565441269,
+            10.800614523482752,
+            0
+          ],
+          [
+            106.73383801936328,
+            10.800545730491473,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 58,
+        "target": 1,
+        "edge_type": "corridor",
+        "edge_id": "14.44.2",
+        "source_edge_id": 44,
+        "source_route_index": 13,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7341484221331,
+            10.800603604832041,
+            0
+          ],
+          [
+            106.73415641958199,
+            10.800569021823412,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 3,
+        "target": 59,
+        "edge_type": "corridor",
+        "edge_id": "15.45.1",
+        "source_edge_id": 45,
+        "source_route_index": 14,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73415641958199,
+            10.800569021823412,
+            0
+          ],
+          [
+            106.73389011726594,
+            10.80051213728936,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 59,
+        "target": 2,
+        "edge_type": "corridor",
+        "edge_id": "15.45.2",
+        "source_edge_id": 45,
+        "source_route_index": 14,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7341484221331,
+            10.800603604832041,
+            0
+          ],
+          [
+            106.73415105526821,
+            10.800592214807022,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 3,
+        "target": 60,
+        "edge_type": "corridor",
+        "edge_id": "16.46.1",
+        "source_edge_id": 46,
+        "source_route_index": 15,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73415105526821,
+            10.800592214807022,
+            0
+          ],
+          [
+            106.73385678239809,
+            10.800529248467559,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 60,
+        "target": 6,
+        "edge_type": "corridor",
+        "edge_id": "16.46.2",
+        "source_edge_id": 46,
+        "source_route_index": 15,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7341484221331,
+            10.800603604832041,
+            0
+          ],
+          [
+            106.73414000872829,
+            10.800636580021141,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 3,
+        "target": 61,
+        "edge_type": "corridor",
+        "edge_id": "17.50.1",
+        "source_edge_id": 50,
+        "source_route_index": 16,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73414000872829,
+            10.800636580021141,
+            0
+          ],
+          [
+            106.73383943915381,
+            10.800573975483028,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 61,
+        "target": 5,
+        "edge_type": "corridor",
+        "edge_id": "17.50.2",
+        "source_edge_id": 50,
+        "source_route_index": 16,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7330385556861,
+            10.800581191679484,
+            0
+          ],
+          [
+            106.73307270567697,
+            10.80042137195057,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 23,
+        "target": 62,
+        "edge_type": "walkway",
+        "edge_id": "18.1.1",
+        "source_edge_id": 1,
+        "source_route_index": 17,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73307270567697,
+            10.80042137195057,
+            0
+          ],
+          [
+            106.73313142750013,
+            10.800433882931614,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 62,
+        "target": 33,
+        "edge_type": "walkway",
+        "edge_id": "18.1.2",
+        "source_edge_id": 1,
+        "source_route_index": 17,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7330385556861,
+            10.800581191679484,
+            0
+          ],
+          [
+            106.73307843540756,
+            10.800396582095683,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 23,
+        "target": 63,
+        "edge_type": "walkway",
+        "edge_id": "19.2.1",
+        "source_edge_id": 2,
+        "source_route_index": 18,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73307843540756,
+            10.800396582095683,
+            0
+          ],
+          [
+            106.73316882916518,
+            10.800414418702667,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 63,
+        "target": 7,
+        "edge_type": "walkway",
+        "edge_id": "19.2.2",
+        "source_edge_id": 2,
+        "source_route_index": 18,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7330385556861,
+            10.800581191679484,
+            0
+          ],
+          [
+            106.73308508598777,
+            10.800365397452197,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 23,
+        "target": 64,
+        "edge_type": "walkway",
+        "edge_id": "20.3.1",
+        "source_edge_id": 3,
+        "source_route_index": 19,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73308508598777,
+            10.800365397452197,
+            0
+          ],
+          [
+            106.73322495714324,
+            10.800392753610243,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 64,
+        "target": 4,
+        "edge_type": "walkway",
+        "edge_id": "20.3.2",
+        "source_edge_id": 3,
+        "source_route_index": 19,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73290974706227,
+            10.80064658682696,
+            0
+          ],
+          [
+            106.7329379293435,
+            10.800430827060582,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 24,
+        "target": 32,
+        "edge_type": "gate",
+        "edge_id": "21.4.1",
+        "source_edge_id": 4,
+        "source_route_index": 20,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7329379293435,
+            10.800430827060582,
+            0
+          ],
+          [
+            106.73294662237025,
+            10.800385787692502,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 32,
+        "target": 65,
+        "edge_type": "corridor",
+        "edge_id": "22.5.1",
+        "source_edge_id": 5,
+        "source_route_index": 21,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73294662237025,
+            10.800385787692502,
+            0
+          ],
+          [
+            106.7328997773948,
+            10.800379689356202,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 65,
+        "target": 31,
+        "edge_type": "corridor",
+        "edge_id": "22.5.2",
+        "source_edge_id": 5,
+        "source_route_index": 21,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7328997773948,
+            10.800379689356202,
+            0
+          ],
+          [
+            106.73290461409022,
+            10.800355735840121,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 31,
+        "target": 66,
+        "edge_type": "corridor",
+        "edge_id": "23.6.1",
+        "source_edge_id": 6,
+        "source_route_index": 22,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73290461409022,
+            10.800355735840121,
+            0
+          ],
+          [
+            106.73306110004916,
+            10.800383565960226,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 66,
+        "target": 67,
+        "edge_type": "corridor",
+        "edge_id": "23.6.2",
+        "source_edge_id": 6,
+        "source_route_index": 22,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73306110004916,
+            10.800383565960226,
+            0
+          ],
+          [
+            106.73305291471972,
+            10.800417476610775,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 67,
+        "target": 68,
+        "edge_type": "corridor",
+        "edge_id": "23.6.3",
+        "source_edge_id": 6,
+        "source_route_index": 22,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73305291471972,
+            10.800417476610775,
+            0
+          ],
+          [
+            106.73313142750013,
+            10.800433882931614,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 68,
+        "target": 33,
+        "edge_type": "corridor",
+        "edge_id": "23.6.4",
+        "source_edge_id": 6,
+        "source_route_index": 22,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7328997773948,
+            10.800379689356202,
+            0
+          ],
+          [
+            106.73290461409022,
+            10.800355735840121,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 31,
+        "target": 69,
+        "edge_type": "corridor",
+        "edge_id": "24.8.1",
+        "source_edge_id": 8,
+        "source_route_index": 23,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73290461409022,
+            10.800355735840121,
+            0
+          ],
+          [
+            106.73306110004916,
+            10.800383565960226,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 69,
+        "target": 70,
+        "edge_type": "corridor",
+        "edge_id": "24.8.2",
+        "source_edge_id": 8,
+        "source_route_index": 23,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73306110004916,
+            10.800383565960226,
+            0
+          ],
+          [
+            106.733058853421,
+            10.800392935238909,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 70,
+        "target": 71,
+        "edge_type": "corridor",
+        "edge_id": "24.8.3",
+        "source_edge_id": 8,
+        "source_route_index": 23,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.733058853421,
+            10.800392935238909,
+            0
+          ],
+          [
+            106.73316882916518,
+            10.800414418702667,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 71,
+        "target": 7,
+        "edge_type": "corridor",
+        "edge_id": "24.8.4",
+        "source_edge_id": 8,
+        "source_route_index": 23,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7328997773948,
+            10.800379689356202,
+            0
+          ],
+          [
+            106.73290461409022,
+            10.800355735840121,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 31,
+        "target": 72,
+        "edge_type": "corridor",
+        "edge_id": "25.9.1",
+        "source_edge_id": 9,
+        "source_route_index": 24,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73290461409022,
+            10.800355735840121,
+            0
+          ],
+          [
+            106.73306110004916,
+            10.800383565960226,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 72,
+        "target": 73,
+        "edge_type": "corridor",
+        "edge_id": "25.9.2",
+        "source_edge_id": 9,
+        "source_route_index": 24,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73306110004916,
+            10.800383565960226,
+            0
+          ],
+          [
+            106.73306603385494,
+            10.800362094087196,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 73,
+        "target": 74,
+        "edge_type": "corridor",
+        "edge_id": "25.9.3",
+        "source_edge_id": 9,
+        "source_route_index": 24,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73306603385494,
+            10.800362094087196,
+            0
+          ],
+          [
+            106.73322495714324,
+            10.800392753610243,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 74,
+        "target": 4,
+        "edge_type": "corridor",
+        "edge_id": "25.9.4",
+        "source_edge_id": 9,
+        "source_route_index": 24,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73342101821537,
+            10.800568971374151,
+            0
+          ],
+          [
+            106.73343796937444,
+            10.800485034810881,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 29,
+        "target": 75,
+        "edge_type": "entrance",
+        "edge_id": "26.10.1",
+        "source_edge_id": 10,
+        "source_route_index": 25,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73343796937444,
+            10.800485034810881,
+            0
+          ],
+          [
+            106.73349037291212,
+            10.800496093760923,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 75,
+        "target": 34,
+        "edge_type": "entrance",
+        "edge_id": "26.10.2",
+        "source_edge_id": 10,
+        "source_route_index": 25,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73349037291212,
+            10.800496093760923,
+            0
+          ],
+          [
+            106.73359349063232,
+            10.800514268130032,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 34,
+        "target": 76,
+        "edge_type": "gate",
+        "edge_id": "27.11.1",
+        "source_edge_id": 11,
+        "source_route_index": 26,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73359349063232,
+            10.800514268130032,
+            0
+          ],
+          [
+            106.73360050662892,
+            10.800475095482371,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 76,
+        "target": 77,
+        "edge_type": "gate",
+        "edge_id": "27.11.2",
+        "source_edge_id": 11,
+        "source_route_index": 26,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73360050662892,
+            10.800475095482371,
+            0
+          ],
+          [
+            106.73365801463389,
+            10.800488929426372,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 77,
+        "target": 35,
+        "edge_type": "gate",
+        "edge_id": "27.11.3",
+        "source_edge_id": 11,
+        "source_route_index": 26,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73349037291212,
+            10.800496093760923,
+            0
+          ],
+          [
+            106.73355278688956,
+            10.800507065771024,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 34,
+        "target": 78,
+        "edge_type": "gate",
+        "edge_id": "28.12.1",
+        "source_edge_id": 12,
+        "source_route_index": 27,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73355278688956,
+            10.800507065771024,
+            0
+          ],
+          [
+            106.733561418027,
+            10.800462463034323,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 78,
+        "target": 79,
+        "edge_type": "gate",
+        "edge_id": "28.12.2",
+        "source_edge_id": 12,
+        "source_route_index": 27,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.733561418027,
+            10.800462463034323,
+            0
+          ],
+          [
+            106.73336730878783,
+            10.800426213718577,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 79,
+        "target": 80,
+        "edge_type": "gate",
+        "edge_id": "28.12.3",
+        "source_edge_id": 12,
+        "source_route_index": 27,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73336730878783,
+            10.800426213718577,
+            0
+          ],
+          [
+            106.73336229960796,
+            10.800449327316347,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 80,
+        "target": 36,
+        "edge_type": "gate",
+        "edge_id": "28.12.4",
+        "source_edge_id": 12,
+        "source_route_index": 27,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73349037291212,
+            10.800496093760923,
+            0
+          ],
+          [
+            106.73355278688956,
+            10.800507065771024,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 34,
+        "target": 81,
+        "edge_type": "gate",
+        "edge_id": "29.13.1",
+        "source_edge_id": 13,
+        "source_route_index": 28,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73355278688956,
+            10.800507065771024,
+            0
+          ],
+          [
+            106.733561418027,
+            10.800462463034323,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 81,
+        "target": 82,
+        "edge_type": "gate",
+        "edge_id": "29.13.2",
+        "source_edge_id": 13,
+        "source_route_index": 28,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.733561418027,
+            10.800462463034323,
+            0
+          ],
+          [
+            106.73335041192934,
+            10.800423758119772,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 82,
+        "target": 83,
+        "edge_type": "gate",
+        "edge_id": "29.13.3",
+        "source_edge_id": 13,
+        "source_route_index": 28,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73335041192934,
+            10.800423758119772,
+            0
+          ],
+          [
+            106.73333639351827,
+            10.800484823746102,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 83,
+        "target": 22,
+        "edge_type": "gate",
+        "edge_id": "29.13.4",
+        "source_edge_id": 13,
+        "source_route_index": 28,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73365801463389,
+            10.800488929426372,
+            0
+          ],
+          [
+            106.73336730878783,
+            10.800426213718577,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 35,
+        "target": 84,
+        "edge_type": "walkway",
+        "edge_id": "30.15.1",
+        "source_edge_id": 15,
+        "source_route_index": 29,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73336730878783,
+            10.800426213718577,
+            0
+          ],
+          [
+            106.73336229960796,
+            10.800449327316347,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 84,
+        "target": 36,
+        "edge_type": "walkway",
+        "edge_id": "30.15.2",
+        "source_edge_id": 15,
+        "source_route_index": 29,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73336229960796,
+            10.800449327316347,
+            0
+          ],
+          [
+            106.73336013931626,
+            10.800459364302485,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 36,
+        "target": 85,
+        "edge_type": "corridor",
+        "edge_id": "31.15.1",
+        "source_edge_id": 15,
+        "source_route_index": 30,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73336013931626,
+            10.800459364302485,
+            0
+          ],
+          [
+            106.7331985667613,
+            10.80042875701733,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 85,
+        "target": 86,
+        "edge_type": "corridor",
+        "edge_id": "31.15.2",
+        "source_edge_id": 15,
+        "source_route_index": 30,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7331985667613,
+            10.80042875701733,
+            0
+          ],
+          [
+            106.73320850608981,
+            10.800389584369668,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 86,
+        "target": 87,
+        "edge_type": "corridor",
+        "edge_id": "31.15.3",
+        "source_edge_id": 15,
+        "source_route_index": 30,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73320850608981,
+            10.800389584369668,
+            0
+          ],
+          [
+            106.73322495714324,
+            10.800392753610243,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 87,
+        "target": 4,
+        "edge_type": "corridor",
+        "edge_id": "31.15.4",
+        "source_edge_id": 15,
+        "source_route_index": 30,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73336229960796,
+            10.800449327316347,
+            0
+          ],
+          [
+            106.73336013931626,
+            10.800459364302485,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 36,
+        "target": 88,
+        "edge_type": "corridor",
+        "edge_id": "32.16.1",
+        "source_edge_id": 16,
+        "source_route_index": 31,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73336013931626,
+            10.800459364302485,
+            0
+          ],
+          [
+            106.73315516807183,
+            10.800424002948793,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 88,
+        "target": 89,
+        "edge_type": "corridor",
+        "edge_id": "32.16.2",
+        "source_edge_id": 16,
+        "source_route_index": 31,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73315516807183,
+            10.800424002948793,
+            0
+          ],
+          [
+            106.73315785753721,
+            10.800412280387814,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 89,
+        "target": 90,
+        "edge_type": "corridor",
+        "edge_id": "32.16.3",
+        "source_edge_id": 16,
+        "source_route_index": 31,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73315785753721,
+            10.800412280387814,
+            0
+          ],
+          [
+            106.73316882916518,
+            10.800414418702667,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 90,
+        "target": 7,
+        "edge_type": "corridor",
+        "edge_id": "32.16.4",
+        "source_edge_id": 16,
+        "source_route_index": 31,
+        "segment_index": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73336229960796,
+            10.800449327316347,
+            0
+          ],
+          [
+            106.73336013931626,
+            10.800459364302485,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 36,
+        "target": 91,
+        "edge_type": "corridor",
+        "edge_id": "33.17.1",
+        "source_edge_id": 17,
+        "source_route_index": 32,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73336013931626,
+            10.800459364302485,
+            0
+          ],
+          [
+            106.73312923811768,
+            10.800419208684445,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 91,
+        "target": 92,
+        "edge_type": "corridor",
+        "edge_id": "33.17.2",
+        "source_edge_id": 17,
+        "source_route_index": 32,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73312923811768,
+            10.800419208684445,
+            0
+          ],
+          [
+            106.733125145453,
+            10.800432363678063,
+            0
+          ],
+          [
+            106.73313142750013,
+            10.800433882931614,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 92,
+        "target": 33,
+        "edge_type": "corridor",
+        "edge_id": "33.17.3",
+        "source_edge_id": 17,
+        "source_route_index": 32,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73313142750013,
+            10.800433882931614,
+            0
+          ],
+          [
+            106.7331379788801,
+            10.800408304656402,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 33,
+        "target": 93,
+        "edge_type": "corridor",
+        "edge_id": "34.18.1",
+        "source_edge_id": 18,
+        "source_route_index": 33,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7331379788801,
+            10.800408304656402,
+            0
+          ],
+          [
+            106.73316882916518,
+            10.800414418702667,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 93,
+        "target": 7,
+        "edge_type": "corridor",
+        "edge_id": "34.18.2",
+        "source_edge_id": 18,
+        "source_route_index": 33,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73316882916518,
+            10.800414418702667,
+            0
+          ],
+          [
+            106.73317978252648,
+            10.80038380713495,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 7,
+        "target": 94,
+        "edge_type": "corridor",
+        "edge_id": "35.19.1",
+        "source_edge_id": 19,
+        "source_route_index": 34,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73317978252648,
+            10.80038380713495,
+            0
+          ],
+          [
+            106.73322495714324,
+            10.800392753610243,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 94,
+        "target": 4,
+        "edge_type": "corridor",
+        "edge_id": "35.19.2",
+        "source_edge_id": 19,
+        "source_route_index": 34,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73322495714324,
+            10.800392753610243,
+            0
+          ],
+          [
+            106.73314590110952,
+            10.800377375804727,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 4,
+        "target": 95,
+        "edge_type": "corridor",
+        "edge_id": "36.20.1",
+        "source_edge_id": 20,
+        "source_route_index": 35,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73314590110952,
+            10.800377375804727,
+            0
+          ],
+          [
+            106.73313142750013,
+            10.800433882931614,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 95,
+        "target": 33,
+        "edge_type": "corridor",
+        "edge_id": "36.20.2",
+        "source_edge_id": 20,
+        "source_route_index": 35,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73435521101625,
+            10.80071295446118,
+            0
+          ],
+          [
+            106.73432429610698,
+            10.800644120966377,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 10,
+        "target": 96,
+        "edge_type": "entrance",
+        "edge_id": "37.21.1",
+        "source_edge_id": 21,
+        "source_route_index": 36,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73432429610698,
+            10.800644120966377,
+            0
+          ],
+          [
+            106.73421476261173,
+            10.800619698095495,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 96,
+        "target": 97,
+        "edge_type": "entrance",
+        "edge_id": "37.21.2",
+        "source_edge_id": 21,
+        "source_route_index": 36,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73421476261173,
+            10.800619698095495,
+            0
+          ],
+          [
+            106.73422210877162,
+            10.800590531222127,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 97,
+        "target": 11,
+        "edge_type": "entrance",
+        "edge_id": "37.21.3",
+        "source_edge_id": 21,
+        "source_route_index": 36,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73435521101625,
+            10.80071295446118,
+            0
+          ],
+          [
+            106.73432710759104,
+            10.800645746391842,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 10,
+        "target": 98,
+        "edge_type": "entrance",
+        "edge_id": "38.22.1",
+        "source_edge_id": 22,
+        "source_route_index": 37,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73432710759104,
+            10.800645746391842,
+            0
+          ],
+          [
+            106.73421476261173,
+            10.800619698095495,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 98,
+        "target": 99,
+        "edge_type": "entrance",
+        "edge_id": "38.22.2",
+        "source_edge_id": 22,
+        "source_route_index": 37,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73421476261173,
+            10.800619698095495,
+            0
+          ],
+          [
+            106.73420334711663,
+            10.8006483574868,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 99,
+        "target": 12,
+        "edge_type": "entrance",
+        "edge_id": "38.22.3",
+        "source_edge_id": 22,
+        "source_route_index": 37,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73420334711663,
+            10.8006483574868,
+            0
+          ],
+          [
+            106.73421034838049,
+            10.800619453266439,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 12,
+        "target": 100,
+        "edge_type": "corridor",
+        "edge_id": "39.23.1",
+        "source_edge_id": 23,
+        "source_route_index": 38,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73421034838049,
+            10.800619453266439,
+            0
+          ],
+          [
+            106.7341484221331,
+            10.800603604832041,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 100,
+        "target": 3,
+        "edge_type": "corridor",
+        "edge_id": "39.23.2",
+        "source_edge_id": 23,
+        "source_route_index": 38,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73422210877162,
+            10.800590531222127,
+            0
+          ],
+          [
+            106.73421333017906,
+            10.800618547033537,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 11,
+        "target": 101,
+        "edge_type": "corridor",
+        "edge_id": "40.24.1",
+        "source_edge_id": 24,
+        "source_route_index": 39,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73421333017906,
+            10.800618547033537,
+            0
+          ],
+          [
+            106.7341484221331,
+            10.800603604832041,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 101,
+        "target": 3,
+        "edge_type": "corridor",
+        "edge_id": "40.24.2",
+        "source_edge_id": 24,
+        "source_route_index": 39,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.7341484221331,
+            10.800603604832041,
+            0
+          ],
+          [
+            106.73405685473027,
+            10.800587559172525,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 3,
+        "target": 9,
+        "edge_type": "corridor",
+        "edge_id": "41.25.1",
+        "source_edge_id": 25,
+        "source_route_index": 40,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73420334711663,
+            10.8006483574868,
+            0
+          ],
+          [
+            106.73420675999053,
+            10.80063789949081,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 12,
+        "target": 102,
+        "edge_type": "corridor",
+        "edge_id": "42.26.1",
+        "source_edge_id": 26,
+        "source_route_index": 41,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73420675999053,
+            10.80063789949081,
+            0
+          ],
+          [
+            106.73383943915381,
+            10.800573975483028,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 102,
+        "target": 5,
+        "edge_type": "corridor",
+        "edge_id": "42.26.2",
+        "source_edge_id": 26,
+        "source_route_index": 41,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73420334711663,
+            10.8006483574868,
+            0
+          ],
+          [
+            106.73420675999053,
+            10.80063789949081,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 12,
+        "target": 103,
+        "edge_type": "corridor",
+        "edge_id": "43.27.1",
+        "source_edge_id": 27,
+        "source_route_index": 42,
+        "segment_index": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73420675999053,
+            10.80063789949081,
+            0
+          ],
+          [
+            106.73384874227138,
+            10.800560886138568,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 103,
+        "target": 104,
+        "edge_type": "corridor",
+        "edge_id": "43.27.2",
+        "source_edge_id": 27,
+        "source_route_index": 42,
+        "segment_index": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73384874227138,
+            10.800560886138568,
+            0
+          ],
+          [
+            106.73385189946984,
+            10.80054738034512,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 104,
+        "target": 105,
+        "edge_type": "corridor",
+        "edge_id": "43.27.3",
+        "source_edge_id": 27,
+        "source_route_index": 42,
+        "segment_index": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.73385189946984,
+            10.80054738034512,
+            0
+          ],
+          [
+            106.73383801936328,
+            10.800545730491473,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "source": 105,
+        "target": 1,
+        "edge_type": "corridor",
+        "edge_id": "43.27.4",
+        "source_edge_id": 27,
+        "source_route_index": 42,
+        "segment_index": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "02_node",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::4979" } },
+"features": [
+{"type":"Feature","properties":{"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"11309","Text":"32"},"geometry":{"type":"Point","coordinates":[19778.334171157319361,305.226230347804403,0.0]}},
+{"type":"Feature","properties":{"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"1130B","Text":"23"},"geometry":{"type":"Point","coordinates":[24679.364457582290925,-4454.654617228212373,0.0]}},
+{"type":"Feature","properties":{"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"11311","Text":"30"},"geometry":{"type":"Point","coordinates":[54574.917597883439157,-172.86678386034049,0.0]}},
+{"type":"Feature","properties":{"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"1018B25","Text":"EV-1"},"geometry":{"type":"Point","coordinates":[-49785.494031010268372,-2929.317589140905056,0.0]}},
+{"type":"Feature","properties":{"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"1018B2D","Text":"22A"},"geometry":{"type":"Point","coordinates":[20544.317325300929951,3326.525440109107876,0.0]}},
+{"type":"Feature","properties":{"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbText:AcDbText","Linetype":null,"EntityHandle":"1018B3D","Text":"ST-2"},"geometry":{"type":"Point","coordinates":[21448.371784544418915,-1882.708245837410914,0.0]}},
+{"type":"Feature","properties":{"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbText:AcDbText","Linetype":null,"EntityHandle":"1018BE4","Text":"ST-1"},"geometry":{"type":"Point","coordinates":[-55380.696385540482879,629.040596375066798,0.0]}},
+{"type":"Feature","properties":{"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbText:AcDbText","Linetype":null,"EntityHandle":"1018C01","Text":"ESC-1"},"geometry":{"type":"Point","coordinates":[-59975.5799948869535,3267.507263132590197,0.0]}},
+{"type":"Feature","properties":{"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"1018C12","Text":"22B"},"geometry":{"type":"Point","coordinates":[44332.357265530357836,79.144596894485346,0.0]}}
+]
+}

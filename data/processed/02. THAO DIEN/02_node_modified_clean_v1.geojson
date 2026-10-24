@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"name": "02_node_modified_clean_v1",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{"type":"Feature","properties":{"fid":32,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"cổng kiểm xoát vé"},"geometry":{"type":"Point","coordinates":[106.732937929343507,10.800430827060582,0.0]}},
+{"type":"Feature","properties":{"fid":33,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"thang cuốn 1"},"geometry":{"type":"Point","coordinates":[106.733131427500126,10.800433882931614,0.0]}},
+{"type":"Feature","properties":{"fid":34,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"cổng kiểm xoát vé 2"},"geometry":{"type":"Point","coordinates":[106.733490372912115,10.800496093760923,0.0]}},
+{"type":"Feature","properties":{"fid":35,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"bãi xe giữa"},"geometry":{"type":"Point","coordinates":[106.733658014633889,10.800488929426372,0.0]}},
+{"type":"Feature","properties":{"fid":36,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"bãi xe giữa"},"geometry":{"type":"Point","coordinates":[106.733362299607961,10.800449327316347,0.0]}},
+{"type":"Feature","properties":{"fid":1,"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"11309","Text":"32"},"geometry":{"type":"Point","coordinates":[106.733838019363276,10.800545730491473,0.0]}},
+{"type":"Feature","properties":{"fid":2,"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"1130B","Text":"23"},"geometry":{"type":"Point","coordinates":[106.733890117265943,10.80051213728936,0.0]}},
+{"type":"Feature","properties":{"fid":3,"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"11311","Text":"30"},"geometry":{"type":"Point","coordinates":[106.734148422133103,10.800603604832041,0.0]}},
+{"type":"Feature","properties":{"fid":4,"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"1018B25","Text":"EV-1"},"geometry":{"type":"Point","coordinates":[106.733224957143236,10.800392753610243,0.0]}},
+{"type":"Feature","properties":{"fid":5,"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"1018B2D","Text":"22A"},"geometry":{"type":"Point","coordinates":[106.733839439153812,10.800573975483028,0.0]}},
+{"type":"Feature","properties":{"fid":6,"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbText:AcDbText","Linetype":null,"EntityHandle":"1018B3D","Text":"ST-2"},"geometry":{"type":"Point","coordinates":[106.733856782398092,10.800529248467559,0.0]}},
+{"type":"Feature","properties":{"fid":7,"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbText:AcDbText","Linetype":null,"EntityHandle":"1018BE4","Text":"ST-1"},"geometry":{"type":"Point","coordinates":[106.73316882916518,10.800414418702667,0.0]}},
+{"type":"Feature","properties":{"fid":30,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"bãi đổ xe trước"},"geometry":{"type":"Point","coordinates":[106.733020474456865,10.800265736833863,0.0]}},
+{"type":"Feature","properties":{"fid":9,"Layer":"ARC_TAG_ROOM NAME","PaperSpace":null,"SubClasses":"AcDbEntity:AcDbMText","Linetype":null,"EntityHandle":"1018C12","Text":"22B"},"geometry":{"type":"Point","coordinates":[106.734056854730269,10.800587559172525,0.0]}},
+{"type":"Feature","properties":{"fid":10,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"cổng sau"},"geometry":{"type":"Point","coordinates":[106.734355211016251,10.800712954461179,0.0]}},
+{"type":"Feature","properties":{"fid":11,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"bãi đổ xe cổng sau"},"geometry":{"type":"Point","coordinates":[106.734222108771618,10.800590531222127,0.0]}},
+{"type":"Feature","properties":{"fid":12,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"bãi đổ xe cổng sau"},"geometry":{"type":"Point","coordinates":[106.734203347116633,10.8006483574868,0.0]}},
+{"type":"Feature","properties":{"fid":22,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"bãi đổ xe cổng giữa cho khuyết tật"},"geometry":{"type":"Point","coordinates":[106.733336393518272,10.800484823746102,0.0]}},
+{"type":"Feature","properties":{"fid":22,"Layer":"","PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"cổng đi bộ giữa"},"geometry":{"type":"Point","coordinates":[106.733038555686093,10.800581191679484,0.0]}},
+{"type":"Feature","properties":{"fid":24,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"cổng trước"},"geometry":{"type":"Point","coordinates":[106.732909747062266,10.800646586826961,0.0]}},
+{"type":"Feature","properties":{"fid":29,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"cổng giữa"},"geometry":{"type":"Point","coordinates":[106.733421018215367,10.800568971374151,0.0]}},
+{"type":"Feature","properties":{"fid":31,"Layer":null,"PaperSpace":null,"SubClasses":null,"Linetype":null,"EntityHandle":null,"Text":"bãi đổ xe trước"},"geometry":{"type":"Point","coordinates":[106.732899777394806,10.800379689356202,0.0]}}
+]
+}

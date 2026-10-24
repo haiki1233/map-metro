@@ -1,0 +1,29 @@
+# Container Runtime cua Vercel (xem docs/DEPLOY_VERCEL.md).
+# Khac voi backend/Dockerfile (dung cho docker-compose):
+#  - Vercel route traffic vao port 80, khong phai 8080. Spring Boot doc bien SERVER_PORT
+#    qua relaxed binding (SERVER_PORT -> server.port), nen khong can sua application.yml.
+#  - Moi instance la 1 Vercel Function: scale-to-zero sau 5 phut khong co traffic, nen
+#    JVM khoi dong cham (~vai giay) duoc tinh vao request dau tien sau khi ngu.
+#  - Gioi han RAM cua Function thap hon VPS, nen dat MaxRAMPercentage de JVM biet tran.
+
+FROM maven:3.9.9-eclipse-temurin-21 AS build
+
+WORKDIR /build
+COPY pom.xml .
+RUN mvn -B dependency:go-offline
+
+COPY src ./src
+RUN mvn -B clean package -DskipTests
+
+FROM eclipse-temurin:21-jre
+
+WORKDIR /app
+COPY --from=build /build/target/*.jar app.jar
+
+ENV SERVER_PORT=80
+EXPOSE 80
+
+# MaxRAMPercentage: JVM lay toi da 75% RAM ma Vercel cap cho Function, tranh OOMKilled.
+# UseSerialGC: heap nho thi SerialGC khoi dong nhanh va it overhead hon G1 -> tot cho cold start.
+#   Neu Function duoc cap nhieu vCPU va chiu tai cao, bo flag nay de quay ve G1 mac dinh.
+ENTRYPOINT ["java", "-XX:MaxRAMPercentage=75", "-XX:+UseSerialGC", "-jar", "app.jar"]

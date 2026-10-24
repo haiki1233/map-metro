@@ -1,0 +1,70 @@
+services:
+  db:
+    # postgis/postgis KHONG kem pgRouting (schema.sql can ca 2 extension) - phai dung image chinh
+    # thuc cua pgRouting, da bao gom san PostGIS. Tag: <postgres>-<postgis>-<pgrouting>.
+    image: pgrouting/pgrouting:16-3.5-4.0.1
+    container_name: indoornav-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: indoornav
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      # Host 5433 (khong dung 5432 mac dinh) de tranh xung dot voi Postgres khac da chay san tren may.
+      - "5433:5432"
+    volumes:
+      - indoornav-db-data:/var/lib/postgresql/data
+      # Tu dong chay 1 lan duy nhat khi container KHOI TAO LAN DAU (volume rong).
+      # Neu da co du lieu tu truoc, sua schema/seed thi phai chay tay qua psql (xem README).
+      - ./database/schema_fix_v2.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+      - ./database/seed/seed_data.sql:/docker-entrypoint-initdb.d/02_seed.sql:ro
+      - ./database/_apply_search_support.sql:/docker-entrypoint-initdb.d/03_search_support.sql:ro
+      - ./database/_load_map_data.sql:/docker-entrypoint-initdb.d/04_load_map_data.sql:ro
+      - ./database/_rebuild_graph.sql:/docker-entrypoint-initdb.d/05_rebuild_graph.sql:ro
+      - ./database/_apply_costs.sql:/docker-entrypoint-initdb.d/06_apply_costs.sql:ro
+      - ./database/migrations/20261020_drawing_feature_floor_required.sql:/docker-entrypoint-initdb.d/07_drawing_feature_floor_required.sql:ro
+      - ./database/migrations/20261020_floor_zero_ground_level.sql:/docker-entrypoint-initdb.d/09_floor_zero_ground_level.sql:ro
+      - ./database/migrations/20261020_drawing_feature_semantics.sql:/docker-entrypoint-initdb.d/10_drawing_feature_semantics.sql:ro
+      - ./database/migrations/20261023_room_height.sql:/docker-entrypoint-initdb.d/10a_room_height.sql:ro
+      - ./database/seed/seed_thao_dien_floor0.sql:/docker-entrypoint-initdb.d/11_seed_thao_dien_floor0.sql:ro
+      - ./database/seed/seed_thao_dien_floor1.sql:/docker-entrypoint-initdb.d/12_seed_thao_dien_floor1.sql:ro
+      - ./database/seed/seed_thao_dien_floor0_routing.sql:/docker-entrypoint-initdb.d/13_seed_thao_dien_floor0_routing.sql:ro
+      - ./database/seed/seed_thao_dien_floor1_routing.sql:/docker-entrypoint-initdb.d/14_seed_thao_dien_floor1_routing.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: indoornav-backend
+    restart: unless-stopped
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db:5432/indoornav
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+      CORS_ALLOWED_ORIGINS: http://localhost:5173,http://127.0.0.1:5173
+    ports:
+      - "8080:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE_URL: /api
+    container_name: indoornav-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  indoornav-db-data:
